@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Dec 30 16:17:53 MYT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0185-621b-e3d4-000006a48f48 
+on database directory /Users/misakimichiba/Downloads/OOP/restaurantPickerApp/myDB with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/Users/misakimichiba/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_333-b02
+user.dir=/Users/misakimichiba/Downloads/OOP/restaurantPickerApp
+os.name=Mac OS X
+os.arch=x86_64
+os.version=12.4
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.StartingPageController">
+   <children>
+      <BorderPane prefHeight="300.0" prefWidth="600.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../../../../images/burger.png" />
+               </image></ImageView>
+         </center>
+         <top>
+            <Label text="Cincai Lah - A Restaurant Picker App" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="25.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets top="25.0" />
+               </BorderPane.margin>
+            </Label>
+         </top>
+      </BorderPane>
+      <ButtonBar buttonMinWidth="110.0" prefHeight="40.0" prefWidth="200.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="255.0">
+        <buttons>
+            <Button minWidth="100.0" mnemonicParsing="false" onAction="#handleShowViewButton" text="View" />
+          <Button mnemonicParsing="false" onAction="#handleEditButton" text="Edit" />
+            <Button mnemonicParsing="false" onAction="#handleMiniGameButton" text="Mini Game" />
+            <Button mnemonicParsing="false" onAction="#handleCantChooseButton" text="Can't Choose?" />
+            <Button mnemonicParsing="false" onAction="#handleFoodDictionaryButton" text="Food Dictionary" />
+        </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>
