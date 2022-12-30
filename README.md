@@ -6,6 +6,9 @@ There's also a very simple mini game (Rock Paper Scissors) and a food dictionary
 
 So far there have been some incomplete parts such as the database not displaying the price ranges of the restaurants and some more that I have already forgotten, hahaha XD
 
+<img width="601" alt="Screen Shot 2022-12-30 at 4 54 09 PM" src="https://user-images.githubusercontent.com/61775829/210052380-3db0637d-45c3-434c-8926-5561814ae562.png">
+
+
 ## Functions
 
 - Add, Edit and Delete restaurant entries in a database
